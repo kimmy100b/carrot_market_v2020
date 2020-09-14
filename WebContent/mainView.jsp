@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html>
 <body>
-	<div class="content">
+	<div class="cm-content">
 		<h1>당근 시장 메인</h1>
 	</div>
 </body>

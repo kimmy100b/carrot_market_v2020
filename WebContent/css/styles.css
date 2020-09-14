@@ -1,11 +1,22 @@
+/*font*/
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/*variables*/
 @import "variables.css";
-@import "custom.css";
 
 /*viewFragment*/
 @import "navigation.css";
 @import "footer.css";
 
-.content{
+/*pages*/
+@import "signUpView.css";
+
+html, body {
+	font-family : 'Nanum Gothic';
+	height: 100%;
+}
+
+.cm-content{
 	background-color: var(--light-orange);
 	height: 500px;
 }

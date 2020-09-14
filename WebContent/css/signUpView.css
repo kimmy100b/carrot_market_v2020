@@ -1,0 +1,106 @@
+
+.wrapper {
+	background-color: var(--light-orange);
+	min-height: calc(100% - 325px);
+	padding: 10px;
+}
+
+/* Firefox */
+input[type=number] {
+	-moz-appearance: textfield;
+}
+
+.cm-explain-container {
+	padding: 5px;
+}
+
+.cm-col-mid {
+	padding-right: 0px;	
+}
+
+.cm-sign-up-title {
+	padding: 10px;
+	color: #CE6D39;
+}
+
+.cm-search-icon {
+	padding: 5px;
+}
+
+.cm-necessary-label {
+	color: red;
+}
+
+.cm-id-btn {
+	vertical-align: center;
+	color: #d96d34;
+	border-color: #F17F42;
+	background-color: white;
+}
+
+.cm-radio-area {
+	padding: 5px;
+	text-align: center;
+}
+
+/* dafault radio */
+.cm-radio-label::before {
+	border-color: #F17F42;
+}
+
+/* This is the checked state */
+.cm-radio .cm-radio-input:checked ~.cm-radio-label::before, .cm-radio .cm-radio-input:checked
+	 ~.cm-radio-label::after {
+	background-color: #F17F42;
+	border-radius: 50%;
+}
+
+.cm-radio-label {
+	border-color: #F17F42;
+}
+
+/* active state i.e. displayed while the mouse is being pressed down */
+.cm-radio .cm-radio-input:active ~ .cm-radio-label::before {
+	color: #F17F42;
+	background-color: #F17F42; /* red */
+}
+
+/* the shadow; displayed while the element is in focus */
+.cm-radio .cm-radio-input:focus ~ .cm-radio-label::before {
+	box-shadow: 0 0 0 1px #F17F42, 0 0 0 0.2rem #ffc8ab;
+	/* pink, 25% opacity */
+}
+
+.cm-id-btn:hover {
+	color: white;
+	background-color: #F17F42;
+	border-color: #d96d34
+}
+
+.cm-row {
+	padding: 5px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 730px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 750px;
+  }
+}
+
+.cm-row-contianer {
+	border-top: 1px solid #F17F42;
+	border-bottom: 1px solid #F17F42;
+	padding: 10px;
+}
