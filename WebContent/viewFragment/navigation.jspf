@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+
+<header>
+	<div class="usermenu">
+		<ul class="user_list">
+			<li><a href="#none" class="user_link signup">회원가입</a>
+			<li><a href="#none" class="user_link login">로그인</a>
+		</ul>
+	</div>
+	<div class="main_img">
+		<img src="./img/mainlogo.png" alt="메인로고"/>
+	</div>
+	<!-- TODO : 권한에 따라 달라지는 페이지 -->
+	<div class="navmenu">
+		<ul class="nav_list">
+			<li><a href="#none" class="nav_link news"><span>공지사항</span></a>
+			<li><a href="#none" class="nav_link buy"><span>사요</span></a>
+			<li><a href="#none" class="nav_link sell"><span>팔아요</span></a>
+			<li><a href="#none" class="nav_link free"><span>자유게시판</span></a>
+			<li><a href="#none" class="nav_link mypage"><span>마이페이지</span></a>
+		</ul>
+	</div>
+
+</header>

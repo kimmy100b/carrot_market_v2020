@@ -1,0 +1,11 @@
+.bg_light{
+	background-color: var(--light);
+}
+
+.bg_light_orange{
+	background-color: var(--light-orange);
+}
+
+.bg_light_green{
+	background-color: var(--light-green);
+}

@@ -1,0 +1,54 @@
+.nav_list, .user_list {
+	width: 100vw;
+	display: flex;
+}
+
+.user_list {
+	justify-content: flex-end;
+	padding-right: 125px;
+}
+
+.user_link:first-child {
+	margin-right: 12px;
+}
+
+.main_img{
+	text-align: center;
+}
+
+.main_img img{
+	width: 290px;
+}
+
+
+.nav_list {
+	justify-content: space-between;
+	padding: 10px 350px;
+	z-index: 500;
+	background-color: white;
+}
+
+.nav_list li, .user_list li {
+	list-style-type: none;
+}
+
+.nav_link, .user_link {
+	text-decoration: none;
+	color: black;
+}
+
+.nav_link {
+	font-weight: 700;
+	height: 55px;
+	padding: 16px 50px 0 48px;
+	font-size: 18px;
+}
+
+.user_link:hover {
+	text-decoration: none;
+	color: var(--brown);
+}
+
+.nav_link:hover {
+	color: var(--orange);
+}
