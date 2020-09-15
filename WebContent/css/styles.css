@@ -1,0 +1,15 @@
+@import "variables.css";
+@import "custom.css";
+
+/*viewFragment*/
+@import "navigation.css";
+
+.content{
+	height: 500px;
+}
+
+footer {
+	background-color: var(--light);
+	text-align: center;
+	padding: 1.5%;
+}
