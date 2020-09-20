@@ -3,13 +3,9 @@
 
 /*viewFragment*/
 @import "navigation.css";
+@import "footer.css";
 
 .content{
+	background-color: var(--light-orange);
 	height: 500px;
-}
-
-footer {
-	background-color: var(--light);
-	text-align: center;
-	padding: 1.5%;
 }
