@@ -2,24 +2,38 @@
 	pageEncoding="UTF-8"%>
 
 <header>
-	<div class="usermenu">
-		<ul class="user_list">
-			<li><a href="#none" class="user_link signup">회원가입</a>
-			<li><a href="#none" class="user_link login">로그인</a>
+	<div>
+		<ul class="cm-user">
+			<li><a href="signUpView.jsp" class="cm-user-link">회원가입</a>
+			<li><a href="#none" class="cm-user-link">로그인</a>
 		</ul>
 	</div>
-	<div class="main_img">
-		<img src="./img/mainlogo.png" alt="메인로고"/>
+	<div class="cm-main-img">
+		<a href="mainView.jsp"><img src="./img/mainlogo.png" alt="메인로고" /></a>
 	</div>
 	<!-- TODO : 권한에 따라 달라지는 페이지 -->
-	<div class="navmenu">
-		<ul class="nav_list">
-			<li><a href="#none" class="nav_link news"><span>공지사항</span></a>
-			<li><a href="#none" class="nav_link buy"><span>사요</span></a>
-			<li><a href="#none" class="nav_link sell"><span>팔아요</span></a>
-			<li><a href="#none" class="nav_link free"><span>자유게시판</span></a>
-			<li><a href="#none" class="nav_link mypage"><span>마이페이지</span></a>
-		</ul>
-	</div>
+	<nav class="navbar navbar-expand-lg ">
+		<a href="mainView.jsp"><img src="./img/navbar.png" alt="메인로고" /></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
 
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto cm-nav">
+				<li class="nav-item"><a class="nav-link" href="#">공지사항 </a></li>
+				<li class="nav-item"><a class="nav-link" href="#">사요</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">팔아요</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">자유게시판</a></li>
+				<li class="nav-item"><a class="nav-link" href="#">마이페이지</a></li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search"
+					placeholder="검색" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search fa-lg cm-icon-search"></i></button>
+			</form>
+		</div>
+	</nav>
 </header>
