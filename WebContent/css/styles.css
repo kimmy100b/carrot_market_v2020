@@ -10,6 +10,7 @@
 
 /*pages*/
 @import "signUpView.css";
+@import "loginView.css";
 
 html, body {
 	font-family : 'Nanum Gothic';

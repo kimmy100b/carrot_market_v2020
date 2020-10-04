@@ -5,7 +5,7 @@
 	<div>
 		<ul class="cm-user">
 			<li><a href="signUpView.jsp" class="cm-user-link">회원가입</a>
-			<li><a href="#none" class="cm-user-link">로그인</a>
+			<li><a href="loginView.jsp" class="cm-user-link">로그인</a>
 		</ul>
 	</div>
 	<div class="cm-main-img">
@@ -30,9 +30,11 @@
 				<li class="nav-item"><a class="nav-link" href="#">마이페이지</a></li>
 			</ul>
 			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="search"
-					placeholder="검색" aria-label="Search">
-				<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-search fa-lg cm-icon-search"></i></button>
+				<input class="form-control mr-sm-2" type="search" placeholder="검색"
+					aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+					<i class="fas fa-search fa-lg cm-icon-search"></i>
+				</button>
 			</form>
 		</div>
 	</nav>
