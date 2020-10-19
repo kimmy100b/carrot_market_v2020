@@ -1,0 +1,12 @@
+.cm-community-form {
+	margin: 2% 15%;
+}
+
+.cm-community-btns {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.cm-btn:first-child {
+	margin-right: 10px;
+}
