@@ -1,23 +1,37 @@
 /*font*/
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+@import
+	url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap')
+	;
 
 /*variables*/
 @import "variables.css";
 
 /*viewFragment*/
 @import "navigation.css";
+
 @import "footer.css";
 
 /*pages*/
 @import "signUpView.css";
+
 @import "loginView.css";
 
+@import "communityWriteView.css";
+
+@import "communityListView.css";
+
 html, body {
-	font-family : 'Nanum Gothic';
+	font-family: 'Nanum Gothic';
 	height: 100%;
 }
 
-.cm-content{
+.cm-content {
 	background-color: var(--light-orange);
 	height: 500px;
+}
+
+.cm-btn {
+	position: relative;
+	background-color: var(--orange);
+	color: white;
 }
