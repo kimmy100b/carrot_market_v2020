@@ -1,4 +1,22 @@
-.cm-community-table {
+.cm-com-wrapper {
 	width: 75%;
 	margin: 2% 10%;
+}
+
+.cm-com-thead, .cm-com-tlists td:last-child {
+	text-align: center;
+}
+
+.cm-com-tlists th:first-child {
+	width: 5%;
+}
+
+.cm-com-tlists td:first-child, .cm-com-tlists td:nth-child(2),
+	.cm-com-tlists td:last-child {
+	width: 15%;
+}
+
+.cm-com-btn {
+	display: flex;
+	flex-direction: row-reverse;
 }

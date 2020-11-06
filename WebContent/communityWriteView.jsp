@@ -8,8 +8,12 @@
 <body>
 <body>
 	<!-- TODO : action 링크 변경하기 -->
-	<form action="./mainView.jsp" method="POST" class="cm-community-form"
+	<form action="./CommunityWrite" method="POST" class="cm-community-form"
 		name="comunityForm" id="comunityForm">
+		<div class="form-group">
+			<label for="user">작성자</label> <input class="form-control"
+				name="user" placeholder="사용자 이름을 입력하세요" required>
+		</div>
 		<div class="form-group">
 			<label for="title">제목</label> <input class="form-control"
 				name="title" placeholder="제목을 입력하세요" required>
@@ -23,7 +27,7 @@
 				class="form-control-file">
 		</div>
 		<div class="form-group cm-community-btns">
-			<button class="cm-btn btn">목록</button>
+			<a class="cm-btn btn" href="./community">목록</a>
 			<button onclick="checkForm()" class="cm-btn btn">등록</button>
 		</div>
 	</form>
