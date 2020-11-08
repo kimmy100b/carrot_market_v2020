@@ -1,0 +1,9 @@
+.cm-notice-wrapper {
+	width: 75%;
+	margin: 2% 10%;
+}
+
+.cm-notice-btn-area {
+	display: flex;
+	flex-direction: row-reverse;
+}

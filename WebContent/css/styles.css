@@ -20,6 +20,10 @@
 
 @import "communityListView.css";
 
+@import "noticeWriteView.css";
+
+@import "noticeListView.css";
+
 html, body {
 	font-family: 'Nanum Gothic';
 	height: 100%;
